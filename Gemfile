@@ -31,7 +31,7 @@ gem 'draper'
 gem 'jb'
 gem 'kaminari', git: 'https://github.com/kaminari/kaminari.git'
 gem 'rails-i18n'
-gem 'ransack'
+gem 'ransack', '2.5.0'
 gem 'sorcery'
 
 gem 'factory_bot_rails'
