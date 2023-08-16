@@ -1,0 +1,8 @@
+<div class="container">
+	<th>
+		<td><p><%= @user.name %></p></td>
+		<td><p><%= @user.hobby %></p></td>
+		<td><p><%= @user.profile %></p></td>
+		<td><%= render partial: "relationships/follow_btn", locals: { user: @user } %></td>
+	</th>
+</div>
